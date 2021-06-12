@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Image } from "react-bootstrap";
+import React from "react";
 
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="side-bar" opacity="1">
+        <Image className="logo" src="dalelogo.png" alt="queen" opacity="1" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Infinite Credit Success is dedicated to help as many families as
+          become Financial Educated with Financial Literacy tools and Build
+          Generational Wealth!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <div className="main">
+        <div className="main-wrapper" opacity="1">
+          <h1 text-align="center">Infinity</h1>
+          <Image className="firstpic" src="dale.png" alt="queen" opacity="1" />
+        </div>
+      </div>
     </div>
   );
 }
