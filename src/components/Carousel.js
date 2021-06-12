@@ -8,7 +8,7 @@ import Carousel from 'react-bootstrap/Carousel'
   <Carousel.Item interval={1000}>
     <img
       className="d-block w-100"
-      src="promopic.jpg"
+      src="promopic.png"
       alt="First slide"
       opacity="1"
       
