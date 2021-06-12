@@ -1,5 +1,5 @@
 import "./App.css";
-import { Image } from "react-bootstrap";
+import { Carousel, Image } from "react-bootstrap";
 import React from "react";
 
 
@@ -20,6 +20,9 @@ function App() {
           <h1 text-align="center">Infinity</h1>
           <Image className="firstpic" src="dale.png" alt="queen" opacity="1" />
         </div>
+      <div className="carousel">
+        <Carousel/>
+      </div>
       </div>
     </div>
   );

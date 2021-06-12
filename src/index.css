@@ -32,6 +32,8 @@ code {
 /* MAIN */
 .main {
   padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -52,3 +54,41 @@ code {
   width: 50%;
 }
 
+/* PAYPAL*/
+
+#smart-button-container {
+  padding: 10px 10px 10px 10px;
+}
+
+#smart-button-container p {
+  justify-items: center;
+  margin: 10px 10px;
+  font-size: 18px;
+  color: black;
+}
+
+#description {
+  margin-right: 5px;
+}
+
+#amount {
+  margin-left: 32px;
+}
+
+#priceLabelError {
+  border: 2px solid blue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#descriptionError {
+  border: 2px solid blue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#invoiceidError {
+  border: 2px solid blue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
