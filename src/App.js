@@ -22,7 +22,7 @@ function App() {
           Generational Wealth!
         </p>
         <div className="fbwrap" class="text-center">
-                <h1 class="text-center">Follow us on Facebook@ Infinite Credit Success</h1>
+                <h1 class="text-center">Follow me on Facebook@ Infinite Credit Success</h1>
                 <a class="text-center"
                   href="https://www.facebook.com/Infinite-Credit-Success-104857744780992"
                   className="facebook-social"
