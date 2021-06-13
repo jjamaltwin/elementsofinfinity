@@ -1,6 +1,9 @@
 {
   "name": "elementsofinfinity",
   "version": "0.1.0",
+  "engines": {
+    "node": "v15.10.0"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
