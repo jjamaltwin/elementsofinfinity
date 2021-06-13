@@ -92,3 +92,18 @@ code {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+/* CAROUSEL */
+
+.carousel-item img {
+  opacity: 1;
+  width: 100%;
+  border: 2px solid gold ; 
+
+
+}
+
+.carousel-caption{
+  color: black;
+  font-size: large;
+}
