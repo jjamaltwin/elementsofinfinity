@@ -17,7 +17,7 @@ code {
   width: 20%;
   background-color: yellow;
   opacity: 1;
-  height: 1200px;
+  height: auto;
   border-radius: 1%;  
 }
 
@@ -44,26 +44,64 @@ code {
 
 }
 
+.main h3 {
+  margin: 0px 0px 10px 0px;
+}
+
 .main-wrapper {
   background-color: white;
   border-radius: 03%;
 }
 
+.main-wrapper p {
+  font-style: oblique;
+  font-size: 20px; 
+  color: black ;
+  margin-top: 30px;
+  
+}
+
 .firstpic{
   opacity: 1;
   border-radius: 5%;
-  width: 50%;
+  width: 40%;
+  margin-right: 40px;
+}
+
+.secpic{
+  opacity: 1;
+  border-radius: 5%;
+  width: 40%;
+  margin-left: 40px;
 }
 
 /* SERVICES */
 
 .services{
+  margin-top: 30px;
   opacity: 1;
   background-color: white;
+  border-radius: 3%;
 
 }
 
 
+.travel {
+  width: 45%;
+  border-radius: 5%;
+  margin-right: 30px;
+}
+
+.travellogo {
+  width: 45%;
+  border-radius: 5%;
+  margin-left: 30px;
+}
+
+.fb {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
 
 /* PAYPAL*/
 
@@ -125,12 +163,90 @@ code {
 .carousel-item img {
   opacity: 1;
   width: 100%;
-
-
-
 }
 
 .carousel-caption{
   color: black;
   font-size: large;
+}
+
+#header h2 {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#header p {
+  font-size: 18px;
+}
+
+#footer {
+  background-color: gold;
+}
+
+#footer p {
+  padding-bottom: 10px;
+}
+
+#footer a {
+  padding-bottom: 10px;
+  color: black;
+  opacity: 1;
+}
+
+#footer h3 {
+  font-size: 30px;
+}
+
+#footwrap {
+  background-color: purple;
+  padding-top: 15px; 
+  padding-bottom: 15px;
+}
+
+/* MEDIA QUERY/FULLY RESPONSIVE */
+@media only screen and (max-width: 1000px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .side-bar h1 {
+    font-size: 18px;
+  }
+
+  .firstpic{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+  }
+
+  .secpic {
+    margin-right: 40px;  
+  }
+
+  .services{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .travel {
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+  }
+  .travellogo {
+    margin-right: 20px; 
+    
+  }
+
+  #secondbook{
+    margin-right: 40px;
+  }
 }
