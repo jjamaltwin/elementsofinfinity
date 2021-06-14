@@ -17,7 +17,8 @@ code {
   width: 20%;
   background-color: yellow;
   opacity: 1;
-  height: 700px;  
+  height: 1200px;
+  border-radius: 1%;  
 }
 
 .side-bar p {
@@ -50,11 +51,37 @@ code {
 
 .firstpic{
   opacity: 1;
-  border: 3px solid black;
+  border-radius: 5%;
   width: 50%;
 }
 
+/* SERVICES */
+
+.services{
+  opacity: 1;
+  background-color: white;
+
+}
+
+
+
 /* PAYPAL*/
+
+#firstbook {
+  border-radius: 5%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+
+#secondbook {
+  border-radius: 5%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 
 #smart-button-container {
   padding: 10px 10px 10px 10px;
@@ -98,7 +125,7 @@ code {
 .carousel-item img {
   opacity: 1;
   width: 100%;
-  border: 2px solid gold ; 
+
 
 
 }
