@@ -17,7 +17,7 @@ code {
   width: 20%;
   background-color: yellow;
   opacity: 1;
-  height: auto;
+  height: 1300px;
   border-radius: 1%;  
 }
 
@@ -33,6 +33,11 @@ code {
 #social {
   font-size: 1.5rem;
   border: 2px blue ;
+}
+
+.flyer {
+  border-radius: 05%;
+  margin-top: 40px;
 }
 
 
@@ -167,6 +172,27 @@ code {
 }
 
 /* CAROUSEL */
+.slider {
+  padding: 0 0 0 0;
+  height: 600px;
+
+}
+
+.slider {
+  padding: 0 0 0 0;
+  height: 600px;
+
+}
+
+.slider img {
+  padding: 0 0 0 0;
+}
+
+
+.carousel h3 {
+  font-size: 2rem;
+  margin: 150px 0px 0px 0px;
+}
 
 .carousel-item img {
   opacity: 1;
@@ -177,6 +203,15 @@ code {
   color: black;
   font-size: large;
 }
+
+.rightarrow {
+  margin-right: 10%;
+}
+
+.leftarrow {
+  margin-left: 10%;
+}
+
 
 #header h2 {
   font-size: 20px;
@@ -190,6 +225,7 @@ code {
 
 #footer {
   background-color: gold;
+  padding-bottom: 4%;
 }
 
 #footer p {
@@ -248,14 +284,34 @@ code {
   .travel {
     margin-left: 40px;
     margin-bottom: 20px;
+    width: 80%;
 
   }
   .travellogo {
-    margin-right: 20px; 
+    margin-right: 20px;
+    width: 80%; 
     
   }
 
   #secondbook{
-    margin-right: 40px;
+    margin: 0px 20px 0px 0px;
+  }
+
+  .flyer{
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .slider img {
+    width: 100%;
+  }
+
+   .rightarrow {
+    margin-top: 65%;
+    
+  }
+  .leftarrow {
+    margin-top: 65%;
+    
   }
 }
