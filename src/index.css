@@ -30,6 +30,13 @@ code {
   width: 40%;
 }
 
+#social {
+  font-size: 1.5rem;
+  border: 2px blue ;
+}
+
+
+
 /* MAIN */
 .main {
   padding: 20px 20px 20px 20px;
@@ -45,7 +52,8 @@ code {
 }
 
 .main h3 {
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 20px 0px;
+  font-size: 2rem;
 }
 
 .main-wrapper {
@@ -205,7 +213,7 @@ code {
 }
 
 /* MEDIA QUERY/FULLY RESPONSIVE */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .main{
     display: flex;
     flex-direction: column;
@@ -214,13 +222,14 @@ code {
     align-items: center;
   }
 
-  .side-bar h1 {
-    font-size: 18px;
+  #social {
+    font-size: 1rem;
   }
 
   .firstpic{
     margin-left: 40px;
     margin-bottom: 20px;
+    
     
   }
 

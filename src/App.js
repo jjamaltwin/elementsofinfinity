@@ -16,7 +16,7 @@ function App() {
           Raising the vibration of love through the many elements of infinity.
         </p>
         <div className="fbwrap" class="text-center">
-          <h1 class="text-center">
+          <h1 id="social"class="text-center">
             Follow me on Facebook@ Infinite Credit Success
           </h1>
           <a
@@ -28,7 +28,7 @@ function App() {
           </a>
         </div>
         <div className="instawrap" class="text-center">
-          <h1 class="text-center">
+          <h1 id="social" class="text-center">
             Follow me on Instagram@ Elements of Infinity
           </h1>
           <a
