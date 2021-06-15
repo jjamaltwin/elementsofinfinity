@@ -1,11 +1,23 @@
 export const CarouselData = [
   {
-    images: "dale.png"
+    images: "happyclient.png",
   },
   {
-    images: "dalelogo.png"
+    images: "growth.jpg",
   },
   {
-    images: "promopic.png",
+    images: "promote3.jpg",
+  },
+  {
+    images: "promote2.jpg",
+  },
+  {
+    images: "promote.jpg",
+  },
+  {
+    images: "focus.jpg",
+  },
+  {
+    images: "lounging.jpg",
   }
 ];

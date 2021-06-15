@@ -1,8 +1,8 @@
 import "./App.css";
 import { Image } from "react-bootstrap";
 import React from "react";
-// import Carousel from "../src/components/Carousel";
-// import { CarouselData } from "./components/CarouselData";
+import Carousel from "../src/components/Carousel";
+import { CarouselData } from "./components/CarouselData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
@@ -72,9 +72,9 @@ function App() {
         </div>
       
 
-        {/* <div className="carousel">
+        <div className="carousel">
           <Carousel slides={CarouselData} />
-        </div> */}
+        </div>
       </div>
     </div>
 
