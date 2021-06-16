@@ -1,24 +1,24 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(8,146,208);
+  background-color: rgb(8, 146, 208);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.side-bar{
+.side-bar {
   width: 20%;
   background-color: yellow;
   opacity: 1;
   height: 1300px;
-  border-radius: 1%;  
+  border-radius: 1%;
 }
 
 .side-bar p {
@@ -32,15 +32,13 @@ code {
 
 #social {
   font-size: 1.5rem;
-  border: 2px blue ;
+  border: 2px blue;
 }
 
 .flyer {
   border-radius: 05%;
   margin-top: 40px;
 }
-
-
 
 /* MAIN */
 .main {
@@ -49,12 +47,10 @@ code {
   flex-direction: column;
 }
 
-
 .main h1 {
   font-size: 20px;
-  color: black; 
+  color: black;
   padding-bottom: 2%;
-
 }
 
 .main h3 {
@@ -70,42 +66,39 @@ code {
 
 .main-wrapper p {
   font-style: oblique;
-  font-size: 20px; 
-  color: black ;
+  font-size: 20px;
+  color: black;
   margin-top: 30px;
-  
 }
 
-.firstpic{
+.firstpic {
   opacity: 1;
   border-radius: 5%;
   width: 40%;
   margin-right: 40px;
 }
 
-.secpic{
+.secpic {
   opacity: 1;
   border-radius: 5%;
   width: 40%;
   margin-left: 40px;
 }
 
-.thirdpic{
+.thirdpic {
   width: 50%;
-  border-radius:5%;
+  border-radius: 5%;
   margin-top: 2%;
 }
 
 /* SERVICES */
 
-.services{
+.services {
   margin-top: 30px;
   opacity: 1;
   background-color: white;
   border-radius: 3%;
-
 }
-
 
 .travel {
   width: 45%;
@@ -120,7 +113,7 @@ code {
 }
 
 .fb {
-  margin-top: 10px; 
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -131,7 +124,6 @@ code {
   margin-right: 20px;
   margin-bottom: 20px;
   margin-top: 10px;
-
 }
 
 #secondbook {
@@ -140,7 +132,6 @@ code {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-
 
 #smart-button-container {
   padding: 10px 10px 10px 10px;
@@ -189,13 +180,11 @@ code {
 .slider {
   padding: 0 0 0 0;
   height: 600px;
-
 }
 
 .slider img {
   padding: 0 0 0 0;
 }
-
 
 .carousel h3 {
   font-size: 2rem;
@@ -208,7 +197,7 @@ code {
   margin: 0px 0px 0px 0px;
 }
 
-.carousel-caption{
+.carousel-caption {
   color: black;
   font-size: large;
 }
@@ -218,8 +207,6 @@ code {
   padding: 0px 0px 0px 0px;
 }
 
-
-
 .rightarrow {
   margin-right: 10%;
 }
@@ -228,11 +215,9 @@ code {
   margin-left: 10%;
 }
 
-
 #header h2 {
   font-size: 20px;
   font-weight: bold;
-
 }
 
 #header p {
@@ -260,14 +245,14 @@ code {
 
 #footwrap {
   background-color: purple;
-  padding-top: 15px; 
+  padding-top: 15px;
   padding-bottom: 15px;
   margin: 0px;
 }
 
 /* MEDIA QUERY/FULLY RESPONSIVE */
 @media only screen and (max-width: 900px) {
-  .main{
+  .main {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -279,7 +264,7 @@ code {
     font-size: 1rem;
   }
 
-  .firstpic{
+  .firstpic {
     margin-left: 28px;
     margin-bottom: 20px;
     width: 80%;
@@ -287,34 +272,32 @@ code {
 
   .secpic {
     margin-left: 0%;
-    width: 80%;   
+    width: 80%;
   }
 
-  .services{
+  .services {
     display: flex;
     flex-direction: column;
     height: auto;
     justify-content: center;
     align-items: center;
   }
-  
+
   .travel {
     margin-left: 40px;
     margin-bottom: 20px;
     width: 80%;
-
   }
   .travellogo {
     margin-right: 20px;
-    width: 80%; 
-    
+    width: 80%;
   }
 
-  #secondbook{
+  #secondbook {
     margin: 0px 20px 0px 0px;
   }
 
-  .flyer{
+  .flyer {
     width: 100%;
     margin-right: 20px;
   }
@@ -323,12 +306,10 @@ code {
     width: 100%;
   }
 
-   .rightarrow {
+  .rightarrow {
     margin-top: 65%;
-    
   }
   .leftarrow {
     margin-top: 65%;
-    
   }
 }
