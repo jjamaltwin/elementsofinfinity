@@ -52,6 +52,7 @@ function App() {
               opacity="1"
             />
             <Image className="secpic" src="ics.jpg" alt="logo" opacity="1" />
+            <Image className="thirdpic" src="travelpic.jpg" alt="logo" opacity="1" />
             <p>
               "Infinite Credit Success is dedicated to help as many families to
               become Financial Educated with Financial Literacy tools and Build

@@ -53,12 +53,14 @@ code {
 .main h1 {
   font-size: 20px;
   color: black; 
+  padding-bottom: 2%;
 
 }
 
 .main h3 {
   margin: 0px 0px 20px 0px;
   font-size: 2rem;
+  word-spacing: 20px;
 }
 
 .main-wrapper {
@@ -86,6 +88,12 @@ code {
   border-radius: 5%;
   width: 40%;
   margin-left: 40px;
+}
+
+.thirdpic{
+  width: 50%;
+  border-radius:5%;
+  margin-top: 2%;
 }
 
 /* SERVICES */
@@ -173,9 +181,9 @@ code {
 
 /* CAROUSEL */
 .slider {
-  padding: 0 0 0 0;
-  height: 600px;
-
+  padding: 0px 0px 0px 0px;
+  height: auto;
+  margin: 0;
 }
 
 .slider {
@@ -191,18 +199,26 @@ code {
 
 .carousel h3 {
   font-size: 2rem;
-  margin: 150px 0px 0px 0px;
+  margin-top: 15%;
 }
 
 .carousel-item img {
   opacity: 1;
   width: 100%;
+  margin: 0px 0px 0px 0px;
 }
 
 .carousel-caption{
   color: black;
   font-size: large;
 }
+
+.image {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+
 
 .rightarrow {
   margin-right: 10%;
@@ -246,6 +262,7 @@ code {
   background-color: purple;
   padding-top: 15px; 
   padding-bottom: 15px;
+  margin: 0px;
 }
 
 /* MEDIA QUERY/FULLY RESPONSIVE */
