@@ -60,7 +60,7 @@ function App() {
             />
             <p>
               "Infinite Credit Success is dedicated to help as many families to
-              become Financial Educated with Financial Literacy tools and Build
+              become Financially Educated with Financial Literacy tools and Build
               Generational Wealth!''
             </p>
           </div>

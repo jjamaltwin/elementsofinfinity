@@ -274,6 +274,10 @@ code {
     margin-left: 0%;
     width: 80%;
   }
+  .thirdpic {
+    margin-left: 0%;
+    width: 80%;
+  }
 
   .services {
     display: flex;
@@ -311,5 +315,13 @@ code {
   }
   .leftarrow {
     margin-top: 65%;
+  }
+
+  .side-bar {
+    width: 55%;
+    background-color: yellow;
+    opacity: 1;
+    height: 1300px;
+    border-radius: 1%;
   }
 }
