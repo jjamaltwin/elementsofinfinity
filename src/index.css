@@ -38,7 +38,11 @@ code {
 .flyer {
   border-radius: 05%;
   margin-top: 40px;
+  width: 95%;
 }
+
+
+
 
 /* MAIN */
 .main {
@@ -251,13 +255,25 @@ code {
 }
 
 /* MEDIA QUERY/FULLY RESPONSIVE */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
+  .body{
+    padding:0px;
+  }
+  
+
+  .side-bar {
+    display:inherit;
+
+  }
+
   .main {
+    width: 100%;  
     display: flex;
     flex-direction: column;
     height: auto;
     justify-content: center;
     align-items: center;
+    
   }
 
   #social {
@@ -265,18 +281,19 @@ code {
   }
 
   .firstpic {
-    margin-left: 28px;
+    margin-left: 11px;
     margin-bottom: 20px;
-    width: 80%;
+    width: 95%;
   }
 
   .secpic {
     margin-left: 0%;
-    width: 80%;
+    width: 95%;
+  
   }
   .thirdpic {
     margin-left: 0%;
-    width: 80%;
+    width: 95%;
   }
 
   .services {
@@ -318,10 +335,11 @@ code {
   }
 
   .side-bar {
-    width: 55%;
+    width: 100%;
     background-color: yellow;
     opacity: 1;
-    height: 1300px;
-    border-radius: 1%;
+  
+    margin-left: 5%;
+    
   }
 }

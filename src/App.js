@@ -8,8 +8,8 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   return (
-    <div className="container-fluid">
-      <div className="App">
+    <div className="container-fluid" >
+      <div className="App">  
         <div className="side-bar" opacity="1">
           <Image className="logo" src="dalelogo.png" alt="queen" opacity="1" />
           <p>
@@ -39,7 +39,7 @@ function App() {
               <FontAwesomeIcon size="4x" opacity="1" icon={faInstagram} />
             </a>
           </div>
-          <Image className="flyer" src="memflyer.jpg" alt="flyer" opacity="1" />
+          <Image className="flyer" src="flyer.jpg" alt="flyer" opacity="1" />
         </div>
         <div className="main">
           <h3>Elements Of Infinity</h3>
@@ -74,7 +74,7 @@ function App() {
             </p>
             <Image
               className="travel"
-              src="travelpic.jpg"
+              src="travelpic3.jpg"
               alt="beach"
               opacity="1"
             />
