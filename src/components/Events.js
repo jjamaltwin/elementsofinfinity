@@ -12,7 +12,7 @@ function Events() {
       <h1>Upcoming Events</h1>
       <h2>Come join me!</h2>
       <Image
-                  className=""
+                  className="eventpic"
                   src="events.png"
                   alt="Responsive image"
                   width="900px"

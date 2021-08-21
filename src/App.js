@@ -8,9 +8,13 @@ import PayPal from "./components/PayPal";
 import Main from "./components/Main";
 import Reviews from "./components/Reviews";
 import Bio from "./components/Bio";
+import { MDBContainer } from 'mdb-react-ui-kit';
 
 function App() {
   return (
+
+    <>
+    <MDBContainer fluid id="fluid">
     <div className="App">
       <NavBar />
 
@@ -22,6 +26,11 @@ function App() {
       <Route path="/Bio" component={Bio} />
       {/* <PayPay/> */}
     </div>
+
+
+    </MDBContainer>
+  </>
+  
   );
 }
 export default App;

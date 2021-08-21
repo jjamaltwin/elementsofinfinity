@@ -8,6 +8,8 @@
   background-color: rgb(134, 138, 139);
   font-size: 2rem;
   width: 100%;
+  margin:0%;
+  padding:0%;
 }
 
 .mr-auto {
@@ -18,15 +20,10 @@
   margin-left: 2rem;
 }
 
-.logo {
-}
 
-/* .scrolled {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: lightblue;
-} */
+.logo {
+
+}
 
 .img-fluid {
   padding: 0;
@@ -34,50 +31,65 @@
   opacity: 1;
 }
 
-.container-main {
+.background {
   background-image: url("feature2.jpg");
   background-repeat: no-repeat;
+  background-size: 100% auto;
   width: 100%;
   height: 90rem;
-  background-size: 100% auto;
-  position: absolute;
-  z-index: -1;
+  background-color: black;
+}
+
+
+.container-main {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+ 
+  padding: 0 8rem;
+  margin-top: 8rem;
+
+}
+
+.manfoot {
+  margin-top: 30rem;
+ 
+  opacity: 1;
+ 
 }
 
 .container-main h1 {
   font-size: xx-large;
-  padding: 10px;
-  font-weight: lighter;
-  position: absolute;
-  z-index: -1;
+  font-weight: bold;
+  margin-bottom:9rem;
+  width: 100%;
+  
+  
 }
 
-.container-main p {
+.container-main h3 {
   font-size: 5rem;
-  padding: 50px;
   font-weight: initial;
-  position: absolute;
-  z-index: 1;
-  margin-top: 400px;
+  margin: 0%;
   font-family: "Style Script", cursive;
+  
 }
+
+
 
 .container-footer {
   width: 100%;
-  height: 200px;
+  margin-top: 0rem;
   display: flex;
   flex-direction: column;
   background-color: ivory;
   font-size: 1.5rem;
   justify-content: space-between;
   align-items: center;
+  padding:0%;
 }
 
 .container-footer h2 {
-
   padding-top: 2rem;
 }
 
@@ -92,11 +104,16 @@
   flex-direction: row;
   width: 100%;
   justify-content: center;
+ 
 }
 /* CONTACT*/
 
 .contact-wrapper {
   background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-form {
@@ -106,14 +123,14 @@
   background-color: cornsilk;
   height: 45rem;
   margin-top: 15rem;
-  margin-left: 25rem;
+
   padding: 2rem;
   margin-bottom: 5rem;
 }
 
 .conhead {
   font-size: 2rem;
-  margin-left: 9rem;
+  
 }
 
 .contact {
@@ -122,26 +139,18 @@
 
 /* PAYPAL*/
 
-.paypal {
-  background-color: rgb(204, 127, 204);
-}
 
-#bookwrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 #firstbook {
   border-radius: 5%;
-  margin-right: 10px;
+ 
   margin-bottom: 20px;
   margin-top: 10px;
 }
 
 #secondbook {
   border-radius: 5%;
-  margin-left: 10px;
+ 
   margin-bottom: 20px;
   margin-top: 10px;
 }
@@ -236,9 +245,8 @@ input[type="submit"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-bottom: 15rem;
-  margin-top: 15rem; */
-  padding: 15rem;
+  padding: 7rem;
+ 
 }
 
 .container-events h1 {
@@ -263,9 +271,15 @@ input[type="submit"] {
   border: 2px solid purple;
 }
 
+.eventpic{
+  width:100%;
+  margin-bottom: 2rem;
+}
+
 .mainfoot {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 #foot {
@@ -294,17 +308,19 @@ input[type="submit"] {
 .review-comments {
   width: 100%;
   font-size: 2rem;
-  padding: 10rem;
+  padding: 20rem;
   background-color: rgb(134, 138, 139);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
 .pone {
+  width: 100%;
   border: 1px solid black;
   padding: 3rem;
-  border-radius: 20%;
+  border-radius: 10%;
   background-color: whitesmoke;
   margin-top: 3rem;
 }
@@ -312,7 +328,7 @@ input[type="submit"] {
 .ptwo {
   border: 1px solid black;
   padding: 3rem;
-  border-radius: 20%;
+  border-radius: 10%;
   background-color: whitesmoke;
   margin-top: 4rem;
 }
@@ -346,19 +362,114 @@ input[type="submit"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7rem;
-  background-color: whitesmoke;
+  padding: 5rem;
+  background-color: black;
+  
 }
 
 .paypal-wrap p {
   font-size: 2rem;
+  color:rgb(134, 138, 139)
 }
 
-.paypay {
-  padding: 10rem;
-  background-color: black;
+.paypal-wrap h2 {
+  font-size: 2rem;
+  color:rgb(134, 138, 139)
 }
+
 
 .opt {
   font-size: 1.5rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 1010px) {
+  body {
+    background-color: lightblue;
+  }
+  .blac {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+  }
+  #basic-navbar-nav {
+    margin: 0;
+    margin-top: 8rem;
+    padding: 0;
+    width: 100%;
+  }
+  .col-md-12 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mr-auto {
+    width: 100%;
+
+    padding: 1rem;
+  }
+  .mr-auto,
+  .mx-auto {
+    margin: 0;
+  }
+  .social{
+    margin-bottom: 7rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 700px) {}
+  .review-comments{
+   padding: 0%;
+   border-radius: 0%;
+  }
+
+
+
+@media only screen and (max-width: 650px) {
+ .container-main h3 {
+  height: 60rem;
+  margin:0%;
+  padding:0%;
+  font-size: 3rem;
+  line-height: 5rem;
+ }
+
+ .container-footer{
+   margin:0%;
+   padding:0%;
+ 
+ }
+
+ .container-main{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+
+ }
+  
+ .manfoot{
+   margin:0%;
+   padding: 0%;
+
+ }
+
+.background{
+  margin: 0%;
+}
+
+.conhead{
+  font-size: 1.5rem;
+}
+
+.contact-form {
+ padding: 1rem;
+ width: 55%;
+}
+
 }
