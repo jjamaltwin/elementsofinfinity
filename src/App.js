@@ -1,29 +1,27 @@
 import "./App.css";
 import React from "react";
 import { Route } from "react-router-dom";
-import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Events from "./components/Events";
-import Purchase from "./components/Purchase";
-import { Nav, Navbar, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-import Header from "./components/Header";
 import NavBar from "./components/NavBar";
+import PayPal from "./components/PayPal";
+import Main from "./components/Main";
+import Reviews from "./components/Reviews";
+import Bio from "./components/Bio";
 
-
-
-function App () {
-  return (    
-      
+function App() {
+  return (
     <div className="App">
-          <NavBar/>
-         
-          <Route exact path="/" component={Home} />
-          <Route path="/Purchase" component={Purchase} />
-          <Route path="/Contact" component={Contact} />
-          <Route path="/Events" component={Events} />  
-        </div>
-      
-      );  
-      
-    }
+      <NavBar />
+
+      <Route exact path="/" component={Main} />
+      <Route path="/purchase" component={PayPal} />
+      <Route path="/Contact" component={Contact} />
+      <Route path="/Events" component={Events} />
+      <Route path="/Reviews" component={Reviews} />
+      <Route path="/Bio" component={Bio} />
+      {/* <PayPay/> */}
+    </div>
+  );
+}
 export default App;

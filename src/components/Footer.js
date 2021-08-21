@@ -6,13 +6,15 @@ function Footer() {
   return (
     <div className="container-footer">
       <h2>Contact</h2>
-      
-      <p>Cell Phone: (480) 490-8474<br /></p>
-      <p>Email: aminahinfinityheals@gmail.com <br /></p>
-      <br />
-      
-  
 
+      <p>
+        Cell Phone: (480) 490-8474
+        <br />
+      </p>
+      <p>
+        Email: aminahinfinityheals@gmail.com <br />
+      </p>
+      <br />
 
       <div className="social">
         <a
@@ -34,7 +36,12 @@ function Footer() {
           href="https://www.instagram.com/elementsofinfinity/"
           className="instagram-social"
         >
-          <FontAwesomeIcon size="2x" color="black" opacity="1" icon={faInstagram} />
+          <FontAwesomeIcon
+            size="2x"
+            color="black"
+            opacity="1"
+            icon={faInstagram}
+          />
         </a>
       </div>
     </div>

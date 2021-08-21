@@ -8,7 +8,7 @@ import React from 'react';
 
 export function PayPalBtn(props) {
 const { amount, currency, createOrder, createSubscription, onApprove, catchError,onError, onCancel} = props;
-const paypalKey = "ATAVNTRDER2TT4YeejbEvs7n1-PpJumVMnP6pEXQxZlq_8v6z9pb-Rbq7_qD2wYtxVzzkT-7ftY7_jAP&currencyUSD"
+const paypalKey = "ATAVNTRDER2TT4YeejbEvs7n1-PpJumVMnP6pEXQxZlq_8v6z9pb-Rbq7_qD2wYtxVzzkT-7ftY7_jAP"
 return (
 <PayPalButton
 amount={amount}
@@ -19,7 +19,7 @@ onError={(err) => onError(err)}
 catchError={(err) => catchError(err)}
 onCancel={(err) => onCancel(err)}
 options={{
-clientId: paypalKey,
+clientID: paypalKey,
 vault:true
 }}
 style={{

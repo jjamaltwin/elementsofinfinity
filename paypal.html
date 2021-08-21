@@ -1,50 +1,103 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
-  </head>
+<div data-component="pay" id="smart-button-container">
+  <div style="text-align: center;">
+    <div id="header" style="margin-bottom: 1.25rem">
+      <h2>Author Aminah Infinity</h2>
+      <p>
+        I Am a new Author of For The Love Or Money. Grateful for my
+        creativity and happy I did heart work! Also checkout 333
+        Affirmations & Intentions Workbook. Books 3, and 4 are in the works!
+      </p>
+      <div id="bookwrap">
+        <image id="firstbook" src="ftlom.jpg" alt="$$" opacity="1" />
+        <image id="secondbook" src="333.jpg" alt="333" opacity="1" />
+      </div>
+      <select id="item-options"><option value="For The Love or Money " price="88.00">For The Love or Money  - 88.00 USD</option><option value="333 Affirmations & Intentions Workbook" price="55.00">333 Affirmations & Intentions Workbook - 55.00 USD</option><option value="Both " price="111.00">Both  - 111.00 USD</option></select>
+      <select style="visibility: hidden" id="quantitySelect"></select>
+    </div>
 
-  <body>
-    <!-- Include the PayPal JavaScript SDK; replace "test" with your own sandbox Business account app client ID -->
-    
-    <!-- Set up a container element for the button -->
-    <P id="pay">
-    <div data-component="paypal"   id="paypal-button-container"></div>
-    
-    <script>
-      paypal.Buttons({
-        
-        // Sets up the transaction when a payment button is clicked
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{
-              amount: {
-                value: '77.44' // Can reference variables or functions. Example: `value: document.getElementById('...').value`
-              }
-            }]
-          });
+  </div>
+</div>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  function initPayPalButton() {
+    var shipping = 0;
+    var itemOptions = document.querySelector("#smart-button-container #item-options");
+var quantity = parseInt();
+var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
+if (!isNaN(quantity)) {
+  quantitySelect.style.visibility = "visible";
+}
+var orderDescription = 'Author Aminah Infinity';
+if(orderDescription === '') {
+  orderDescription = 'Item';
+}
+paypal.Buttons({
+  style: {
+    shape: 'pill',
+    color: 'gold',
+    layout: 'vertical',
+    label: 'paypal',        
+  },
+  createOrder: function(data, actions) {
+    var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
+    var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
+    var tax = (0 === 0) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
+    if(quantitySelect.options.length > 0) {
+      quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
+    } else {
+      quantity = 1;
+    }
+
+    tax *= quantity;
+    tax = Math.round(tax * 100) / 100;
+    var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
+    priceTotal = Math.round(priceTotal * 100) / 100;
+    var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
+
+    return actions.order.create({
+      purchase_units: [{
+        description: orderDescription,
+        amount: {
+          currency_code: 'USD',
+          value: priceTotal,
+          breakdown: {
+            item_total: {
+              currency_code: 'USD',
+              value: itemTotalValue,
+            },
+            shipping: {
+              currency_code: 'USD',
+              value: shipping,
+            },
+            tax_total: {
+              currency_code: 'USD',
+              value: tax,
+            }
+          }
         },
-        
-        // Finalize the transaction after payer approval
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(orderData) {
-            // Successful capture! For dev/demo purposes:
-            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-            var transaction = orderData.purchase_units[0].payments.captures[0];
-            // When ready to go live, remove the alert and show a success message within this page. For example:
-             var element = document.getElementById('paypal-button-container');
-             element.innerHTML = '';
-             element.innerHTML = '<h3>Thank you for your payment!</h3>';
-            // Or go to another URL:  actions.redirect('thank_you.html');
-          });
-        }
-      }).render('#paypal-button-container');
-      
-      </script>
-
-    </P>
-      <script  src="https://www.paypal.com/sdk/js?client-id=ATAVNTRDER2TT4YeejbEvs7n1-PpJumVMnP6pEXQxZlq_8v6z9pb-Rbq7_qD2wYtxVzzkT-7ftY7_jAP&currency=USD"></script>
-      <script>paypal.Buttons().render('body');</script>
-  </body>
-</html>
+        items: [{
+          name: selectedItemDescription,
+          unit_amount: {
+            currency_code: 'USD',
+            value: selectedItemPrice,
+          },
+          quantity: quantity
+        }]
+      }]
+    });
+  },
+  onApprove: function(data, actions) {
+    return actions.order.capture().then(function(details) {
+      alert('Transaction completed by ' + details.payer.name.given_name + '!');
+    });
+  },
+  onError: function(err) {
+    console.log(err);
+  },
+}).render('#paypal-button-container');
+}
+initPayPalButton();
+</script>
+  
+  <script  src="https://www.paypal.com/sdk/js?client-id=ATAVNTRDER2TT4YeejbEvs7n1-PpJumVMnP6pEXQxZlq_8v6z9pb-Rbq7_qD2wYtxVzzkT-7ftY7_jAP&currency=USD"></script>
+  <script>paypal.Buttons().render('body');</script>

@@ -1,6 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import Header from './Header';
+import Footer from './Footer';
 
 export default function Contact() {
 
@@ -17,10 +18,11 @@ export default function Contact() {
   }
 
   return (
-  
-      <form className="contact-form" onSubmit={sendEmail}>
+      <div className="contact-wrapper">
         <Header/>
+      <form className="contact-form" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number"></input>
+          <h1 className="conhead">I would love to hear from you !!</h1>
         <label>To</label>
         <input type="text" name="to_name"></input>
         <label>From</label>
@@ -31,8 +33,8 @@ export default function Contact() {
         <textarea name="message"></textarea>
         <input type="submit" value="Send"></input>
       </form>
-  
-   
+        <Footer/>
+      </div>
   );
 }
 
