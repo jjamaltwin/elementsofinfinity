@@ -8,35 +8,30 @@
   background-color: rgb(134, 138, 139);
   font-size: 2rem;
   width: 100%;
-  margin:0%;
-  padding:0%;
+  margin: 0%;
+  padding: 0%;
 }
-
 
 .col-md-12 {
-  margin:0%;
-  padding:0%;
+  margin: 0%;
+  padding: 0%;
   width: 100%;
-  background-color: black;;
+  background-color: black;
 }
-
 
 .mr-auto {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-size: 1.5rem;
-  
+
   padding: 0%;
-  
 }
 
-
 #basic-navbar-nav {
-  margin:0%;
-  padding:0%;
+  margin: 0%;
+  padding: 0%;
   width: 100%;
-
 }
 
 .img-fluid {
@@ -54,29 +49,23 @@
   background-color: black;
 }
 
-
 .container-main {
   width: 100%;
   display: flex;
   flex-direction: column;
- 
-
 }
 
 .manfoot {
   margin-top: 30rem;
- 
+
   opacity: 1;
- 
 }
 
 .container-main h1 {
   font-size: xx-large;
   font-weight: bold;
-  margin-bottom:9rem;
+  margin-bottom: 9rem;
   width: 100%;
-  
-  
 }
 
 .container-main h3 {
@@ -84,10 +73,7 @@
   font-weight: initial;
   margin: 0%;
   font-family: "Style Script", cursive;
-  
 }
-
-
 
 .container-footer {
   width: 100%;
@@ -98,7 +84,7 @@
   font-size: 1.5rem;
   justify-content: space-between;
   align-items: center;
-  padding:0%;
+  padding: 0%;
 }
 
 .container-footer h2 {
@@ -116,7 +102,6 @@
   flex-direction: row;
   width: 100%;
   justify-content: center;
- 
 }
 /* CONTACT*/
 
@@ -142,7 +127,6 @@
 
 .conhead {
   font-size: 2rem;
-  
 }
 
 .contact {
@@ -151,18 +135,16 @@
 
 /* PAYPAL*/
 
-
-
 #firstbook {
   border-radius: 5%;
- 
+
   margin-bottom: 20px;
   margin-top: 10px;
 }
 
 #secondbook {
   border-radius: 5%;
- 
+
   margin-bottom: 20px;
   margin-top: 10px;
 }
@@ -258,7 +240,6 @@ input[type="submit"] {
   flex-direction: column;
   align-items: center;
   padding: 7rem;
- 
 }
 
 .container-events h1 {
@@ -283,8 +264,8 @@ input[type="submit"] {
   border: 2px solid purple;
 }
 
-.eventpic{
-  width:100%;
+.eventpic {
+  width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -304,7 +285,7 @@ input[type="submit"] {
   width: 100%;
 }
 
-.slider img{
+.slider img {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -336,48 +317,44 @@ input[type="submit"] {
 
 .pone {
   width: 100%;
-  
+
   padding: 3rem;
   border-radius: 10%;
   background-color: whitesmoke;
   margin-top: 3rem;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .ptwo {
- 
   padding: 3rem;
   border-radius: 10%;
   background-color: whitesmoke;
   margin-top: 4rem;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .pthree {
- 
   padding: 3rem;
   border-radius: 20%;
   background-color: whitesmoke;
   margin-top: 4rem;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .pfour {
- 
   padding: 3rem;
   border-radius: 20%;
   background-color: whitesmoke;
   margin-top: 4rem;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .pfive {
- 
   padding: 3rem;
   border-radius: 20%;
   background-color: whitesmoke;
   margin-top: 4rem;
-  opacity: .5;
+  opacity: 0.5;
   margin-bottom: 2rem;
 }
 
@@ -388,27 +365,21 @@ input[type="submit"] {
   align-items: center;
   padding: 5rem;
   background-color: black;
-  
 }
 
 .paypal-wrap p {
   font-size: 2rem;
-  color:rgb(134, 138, 139)
+  color: rgb(134, 138, 139);
 }
 
 .paypal-wrap h2 {
   font-size: 2rem;
-  color:rgb(134, 138, 139)
+  color: rgb(134, 138, 139);
 }
-
 
 .opt {
   font-size: 1.5rem;
 }
-
-
-
-
 
 @media only screen and (max-width: 1010px) {
   body {
@@ -440,138 +411,112 @@ input[type="submit"] {
   .mx-auto {
     margin: 0;
   }
-  .social{
+  .social {
     margin-bottom: 7rem;
   }
-
 }
 
+@media only screen and (max-width: 700px) {
+}
+.background {
+  height: 70rem;
+}
 
-@media only screen and (max-width: 700px) {}
- .background {
-   height: 70rem; 
- } 
-
-
- .review-comments{
-   padding: 0%;
-   border-radius: 0%;
-  }
-
-  .contact-form {
-    width: 75%;
-  }
-
-  #fluid {
-    padding: 0;
-  }
-
-  .container-main h3 {
-    margin-top: 2rem;
-  
-  }
-
-  .container-main h1 {
-    margin-top: 6rem;
-  
-  }
-
-
-@media only screen and (max-width: 650px) {
-  #basic-navbar-nav {
-    
-
-  }
- 
- 
- 
- 
- 
-  .contact-form {
-    width: 75%;
-  }
- 
- 
- 
-  .container-main h3 {
-  height: 60rem;
-  margin:0%;
-  padding:0%;
-  font-size: 3rem;
-  line-height: 5rem;
- }
-
- .container-footer{
-   margin:0%;
-   padding:0%;
- 
- }
-
- .container-main{
-  width: 100%;
-  margin: 0%;
+.review-comments {
   padding: 0%;
-
- }
-  
- .manfoot{
-   margin:0%;
-   padding: 0%;
-
- }
-
-.background{
-  margin: 0%;
-}
-
-.conhead{
-  font-size: 1.5rem;
+  border-radius: 0%;
 }
 
 .contact-form {
- padding: 1rem;
- width: 55%;
+  width: 75%;
 }
 
+#fluid {
+  padding: 0;
 }
 
-@media only screen and (max-width:300px- 600px) {
-  .contact-form {
-    border: 2px solid yellow;
-    width: 75%;
-  }
+.container-main h3 {
+  margin-top: 2rem;
 }
 
+.container-main h1 {
+  margin-top: 6rem;
+}
 
-@media only screen and (max-width: 428px) {}
-  
-
-
-  .review-comments{
-   padding: 0%;
-   border-radius: 0%;
+@media only screen and (max-width: 650px) {
+  #basic-navbar-nav {
   }
 
   .contact-form {
     width: 75%;
-  }
-
-  #fluid {
-    padding: 0;
   }
 
   .container-main h3 {
-    margin-top: 2rem;
-    margin-left: 3rem;
-    padding: 1rem;
-    
+    height: 60rem;
+    margin: 0%;
+    padding: 0%;
+    font-size: 3rem;
+    line-height: 5rem;
   }
 
-  .container-main h1 {
-    margin-top: 6rem;
-    margin-left: 7rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  
+  .container-footer {
+    margin: 0%;
+    padding: 0%;
   }
+
+  .container-main {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .manfoot {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .background {
+    margin: 0%;
+  }
+
+  .conhead {
+    font-size: 1.5rem;
+  }
+
+  .contact-form {
+    padding: 1rem;
+    width: 55%;
+  }
+}
+
+
+
+@media only screen and (max-width: 428px) {
+}
+
+.review-comments {
+  padding: 0%;
+  border-radius: 0%;
+}
+
+.contact-form {
+  width: 75%;
+}
+
+#fluid {
+  padding: 0;
+}
+
+.container-main h3 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+
+.container-main h1 {
+  margin-top: 6rem;
+  margin-left: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
