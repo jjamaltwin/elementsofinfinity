@@ -13,7 +13,7 @@ import Contact from "./Contact";
 class NavBar extends React.Component {
   render() {
     return (
-      <div className="blac">
+      <div className="">
         <div className="col-md-12">
           <Router>
             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
