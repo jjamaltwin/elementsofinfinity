@@ -18,6 +18,7 @@ class PayPal extends React.Component {
         </p>
         <Image id="firstbook" src="ftlom.jpg" alt="$$" opacity="1" />
         <Image id="secondbook" src="333.jpg" alt="333" opacity="1" />
+        <h4 opacity="1"color="white">Book Selection</h4>
         <PayPay/>
       </div>
       </div>

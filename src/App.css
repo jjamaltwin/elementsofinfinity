@@ -295,6 +295,7 @@ input[type="submit"] {
   color: white;
   font-size: 2rem;
   margin-bottom: 3rem;
+  margin-left: 2rem;
 }
 
 .container-reviews {
@@ -350,7 +351,7 @@ input[type="submit"] {
 }
 
 .pfive {
-  padding: 3rem;
+  padding: 5rem;
   border-radius: 20%;
   background-color: whitesmoke;
   margin-top: 4rem;
@@ -443,6 +444,15 @@ input[type="submit"] {
   margin-top: 6rem;
 }
 
+.d-block  {
+  border-radius: 10%;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 650px) {
   #basic-navbar-nav {
   }
@@ -452,7 +462,7 @@ input[type="submit"] {
   }
 
   .container-main h3 {
-    height: 60rem;
+    height: 40rem;
     margin: 0%;
     padding: 0%;
     font-size: 3rem;
@@ -471,6 +481,7 @@ input[type="submit"] {
   }
 
   .manfoot {
+   
     margin: 0%;
     padding: 0%;
   }
