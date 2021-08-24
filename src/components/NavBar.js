@@ -33,7 +33,7 @@ class NavBar extends React.Component {
                   <Nav.Link href="/purchase">Purchase</Nav.Link>
                   <Nav.Link href="/events">Events</Nav.Link>
                   <Nav.Link href="/reviews">Reviews</Nav.Link>
-                  <Nav.Link href="/bie">Bio</Nav.Link>
+                  <Nav.Link href="/bio">Bio</Nav.Link>
                 </Nav>
               </Navbar>
             </Navbar>

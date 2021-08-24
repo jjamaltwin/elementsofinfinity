@@ -23,7 +23,7 @@ function App() {
       <Route path="/Contact" component={Contact} />
       <Route path="/Events" component={Events} />
       <Route path="/Reviews" component={Reviews} />
-      <Route path="/Bio" component={Bio} />
+      <Route path="/bio" component={Bio} />
       {/* <PayPay/> */}
     </div>
 
