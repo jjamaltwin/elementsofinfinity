@@ -459,7 +459,7 @@ input[type="submit"] {
 }
 
 .bio {
-  height:90rem;
+  height:100rem;
 }
 
 .background {
@@ -493,7 +493,7 @@ input[type="submit"] {
 
 @media only screen and (max-width: 650px) {
   .bio {
-    height:85rem;
+    height:100rem;
   }
 
   .bio p {
@@ -558,6 +558,11 @@ input[type="submit"] {
 }
 
 @media only screen and (max-width: 428px) {
+}
+
+
+.bio {
+  height:100rem;
 }
 
 .review-comments {
