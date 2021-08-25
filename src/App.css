@@ -413,13 +413,13 @@ input[type="submit"] {
   background-color: black;
 }
 
+
+
+
 @media only screen and (max-width: 1010px) {
   .bio {
-    height:70rem;
+    height: 70rem;
   }
-
-
-
 
   body {
     background-color: lightblue;
@@ -459,8 +459,10 @@ input[type="submit"] {
 }
 
 .bio {
-  height:70rem;
+  height: 70rem;
 }
+
+
 
 .background {
   height: 70rem;
@@ -492,12 +494,13 @@ input[type="submit"] {
 }
 
 @media only screen and (max-width: 650px) {
+  
   .bio {
-    height:70rem;
+    height: 70rem;
   }
 
   .bio p {
-    padding: 0%;
+    padding: 0rem 3rem;
     font-size: 1.5rem;
     padding: 0rem 2rem;
   }
@@ -505,7 +508,6 @@ input[type="submit"] {
   .bio-top {
     margin-top: 4rem;
   }
-
 
   .bio-bottom {
     margin-bottom: 4rem;
@@ -554,12 +556,17 @@ input[type="submit"] {
   }
 }
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 200 - 428px) {
 }
 
-
 .bio {
-  height:70rem;
+  height: 70rem;
+}
+
+.bio h1 {
+  color: white;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
 }
 
 .review-comments {
