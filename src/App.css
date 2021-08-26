@@ -563,14 +563,14 @@ input[type="submit"] {
 @media only screen and (max-width: 200 - 428px) {
 }
 .biowrap {
-  padding: 12rem 0rem;
+  padding: 6rem 0rem;
 }
 
 
 
 .bio {
   border: 2px solid gold;
-  padding: 0%;
+  padding: 8rem 0rem;
 
 }
 
