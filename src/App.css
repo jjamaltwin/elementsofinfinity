@@ -459,7 +459,7 @@ input[type="submit"] {
 }
 
 .bio {
-  height: 70rem;
+  height: 99rem;
   padding: 3rem 0rem;
 }
 
@@ -499,7 +499,7 @@ input[type="submit"] {
 @media only screen and (max-width: 650px) {
   
   .bio {
-   
+   height: 99rem;
   }
 
   .bio p {
@@ -569,6 +569,7 @@ input[type="submit"] {
 
 
 .bio {
+  height: 99rem;
   border: 2px solid gold;
   padding: 8rem 0rem;
 
