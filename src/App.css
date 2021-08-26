@@ -465,6 +465,7 @@ input[type="submit"] {
 
 .bio p {
   margin-bottom: 2rem; 
+  padding: 12rem 0rem;
 }
 
 .background {
@@ -503,7 +504,7 @@ input[type="submit"] {
   }
 
   .bio p {
- 
+    padding: 12rem 0rem;
   }
 
 
@@ -576,8 +577,8 @@ input[type="submit"] {
 }
 
 .bio p {
-  padding:0%;
   
+  padding: 12rem 0rem;
 }
 
 .bio h1 {
