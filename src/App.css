@@ -563,12 +563,13 @@ input[type="submit"] {
 }
 
 .bio {
-  
+  border: 2px solid gold;
+  padding: 0%;
 
 }
 
 .bio p {
-  
+  padding:0%;
   
 }
 
