@@ -505,6 +505,9 @@ input[type="submit"] {
   .bio p {
  
   }
+  .biowrap {
+    padding: 2rem 4rem;
+  }
 
  
   
