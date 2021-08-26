@@ -460,7 +460,8 @@ input[type="submit"] {
 
 .bio {
   height: 99rem;
-  padding: 3rem 0rem;
+  padding: 12rem 0rem;
+  
 }
 
 .bio p {
@@ -501,6 +502,7 @@ input[type="submit"] {
   
   .bio {
    height: 99rem;
+   padding: 12rem 0rem;
   }
 
   .bio p {
@@ -572,13 +574,13 @@ input[type="submit"] {
 .bio {
   height: 99rem;
   border: 2px solid gold;
-  padding: 8rem 0rem;
+  padding: 12rem 0rem;
 
 }
 
 .bio p {
   
-  padding: 12rem 0rem;
+ 
 }
 
 .bio h1 {
