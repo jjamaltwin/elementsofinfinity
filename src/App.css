@@ -405,7 +405,7 @@ input[type="submit"] {
 
 .bio p {
   font-weight: bold;
-  padding: 0rem 10rem;
+ 
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -511,7 +511,7 @@ input[type="submit"] {
    justify-content: center;
    align-items: center;
    height: 90rem;
-   padding: 4rem 4rem;
+  
    background-image: url(bioimage.jpg);
    background-repeat: no-repeat;
    background-size: 150% auto;
@@ -581,7 +581,7 @@ input[type="submit"] {
 @media only screen and (max-width: 200 - 428px) {
 }
 .biowrap {
-  padding: 6rem 0rem;
+  
 }
 
 
@@ -594,8 +594,7 @@ input[type="submit"] {
 }
 
 .bio p {
-  margin-bottom: 10rem;
- 
+  
 }
 
 .bio h1 {
