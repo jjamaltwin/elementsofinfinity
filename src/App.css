@@ -582,6 +582,7 @@ input[type="submit"] {
 }
 .biowrap {
   
+
 }
 
 
@@ -589,7 +590,12 @@ input[type="submit"] {
 .bio {
   height: auto;
   padding: 0rem 0rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+ 
+ 
   
+
 
 }
 
