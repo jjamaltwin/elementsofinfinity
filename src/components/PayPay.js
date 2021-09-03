@@ -23,7 +23,7 @@ class PayPay extends React.Component {
                   name="on0"
                   defaultValue="Book Selections"
                 />
-                Book Selections
+              
               </td>
             </tr>
             <tr>
