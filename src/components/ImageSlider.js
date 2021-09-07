@@ -6,7 +6,7 @@ export default function ImageSlider() {
   return (
     <div
       className="slider"
-      style={{ display: "block", width: 500, padding: 30 }}
+      style={{ display: "block", width: 700, padding: 30 }}
     >
       <h4>Happy Clients</h4>
       <Carousel>
