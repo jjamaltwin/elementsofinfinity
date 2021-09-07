@@ -31,6 +31,37 @@ export default function ImageSlider() {
         <Carousel.Item interval={1000}>
           <img className="d-block w-100" src="smiling2.jpg" alt="Seven" />
         </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="networking.jpg" alt="Eight" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="3Queens.jpg" alt="Nine" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="promote4.jpg" alt="Ten" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="promote5.jpg" alt="Eleven" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="selfgrowth.jpg" alt="Twelve" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="promote6.jpg" alt="Thirteen" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="promote7.jpg" alt="Fourteen" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="laughing.jpg" alt="Fifteen" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="promote8.jpg" alt="Sixteen" />
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img className="d-block w-100" src="promote9.jpg" alt="Seventeen" />
+        </Carousel.Item>
+        
       </Carousel>
     </div>
   );
