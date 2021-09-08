@@ -339,7 +339,7 @@ input[type="submit"] {
 .pthree {
   margin-left: 0rem;
   width: 100%;
-  padding: 3rem;
+  padding: 5rem;
   border-radius: 20%;
   background-color: whitesmoke;
   margin-top: 4rem;
@@ -357,7 +357,7 @@ input[type="submit"] {
 
 .pfive {
   width: 100%;
-  padding: 5rem;
+  padding: 6rem;
   border-radius: 20%;
   background-color: whitesmoke;
   margin-top: 4rem;
