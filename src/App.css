@@ -296,7 +296,7 @@ input[type="submit"] {
   color: white;
   font-size: 2rem;
   margin-bottom: 3rem;
-  margin-left: 2rem;
+  margin-left: 12rem;
 }
 
 .container-reviews {
@@ -318,9 +318,9 @@ input[type="submit"] {
 }
 
 .pone {
-  width: 90%;
+  width: 100%;
 
-  padding: 3rem;
+  padding: 4rem;
   border-radius: 20%;
   background-color: whitesmoke;
   margin-top: 3rem;
@@ -328,7 +328,7 @@ input[type="submit"] {
 }
 
 .ptwo {
-  width: 90%;
+  width: 100%;
   padding: 3rem;
   border-radius: 20%;
   background-color: whitesmoke;
@@ -337,8 +337,8 @@ input[type="submit"] {
 }
 
 .pthree {
-  margin-left: 2.25rem;
-  width: 90%;
+  margin-left: 0rem;
+  width: 100%;
   padding: 3rem;
   border-radius: 20%;
   background-color: whitesmoke;
@@ -347,7 +347,7 @@ input[type="submit"] {
 }
 
 .pfour {
-  width: 90%;
+  width: 100%;
   padding: 3rem;
   border-radius: 20%;
   background-color: whitesmoke;
@@ -356,7 +356,7 @@ input[type="submit"] {
 }
 
 .pfive {
-  width: 90%;
+  width: 100%;
   padding: 5rem;
   border-radius: 20%;
   background-color: whitesmoke;
