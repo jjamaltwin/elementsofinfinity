@@ -1,8 +1,10 @@
 import React from "react";
 import { Image } from "react-bootstrap";
+import FnPay from "../components/FnPay";
 import Footer from "./Footer";
 import NewPay from "./newpay";
-import PayPay from "./PayPay";
+
+
 
 class PayPal extends React.Component {
   render() {
@@ -20,7 +22,8 @@ class PayPal extends React.Component {
         <Image id="firstbook" src="ftlom.jpg" alt="$$" opacity="1" />
         <Image id="secondbook" src="333.jpg" alt="333" opacity="1" />
         <h4 opacity="1"color="white">Book Selection</h4>
-       <NewPay/>
+        <FnPay/>
+       
       </div>
       </div>
         <Footer/>
